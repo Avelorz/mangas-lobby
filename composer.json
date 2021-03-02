@@ -1,0 +1,20 @@
+{
+    "name": "eu/htdocs",
+    "authors": [
+        {
+            "name": "Joao Pedro",
+            "email": "jpnfortunato@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hentailobby\\Classes\\": "classes/",
+            "Hentailobby\\Controllers\\Home\\": "controllers/home/",
+            "Hentailobby\\Controllers\\Administracao\\": "controllers/administracao/",
+            "Hentailobby\\Models\\Home\\": "models/home/",
+            "Hentailobby\\Models\\Administracao\\": "models/administracao/"
+        }
+    }
+}
